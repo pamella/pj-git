@@ -3,7 +3,7 @@ Repositório auxiliar ao treinamento de Git para a PJ. (Dez, 2019)
 
 
 ## Slides
-- [Slides](bit.ly/pj-git)
+- [Slides](http://bit.ly/pj-git)
 
 
 ## Fork esse repositório
@@ -32,14 +32,14 @@ git clone https://github.com/seu-usuario/pj-git.git
 onde "seu-usuário" é o seu usuário do GitHub. Aqui você está copiando o conteúdo do repositório pj-git para o seu computador.
 
 
-## Crie um Branch
+## Crie uma branch
 
 Vá para o diretório do repositório no seu computador (caso você não esteja lá):
 ```
 cd pj-git
 ```
 
-Agora crie um Branch usando o comando `git checkout`:
+Agora crie uma branch usando o comando `git checkout`:
 ```
 git checkout -b <add-seu-nome>
 ```
@@ -48,13 +48,13 @@ Por exemplo:
 ```
 git checkout -b add-larissa-silva
 ```
-Obs.: O nome do Branch não precisa ter a sigla "add", mas nesse caso é recomendável, porque a finalidade deste Branch é a de adicionar o seu nome a uma lista.
+Obs.: O nome da branch não precisa ter a sigla "add", mas nesse caso é recomendável, porque a finalidade desta branch é a de adicionar o seu nome a uma lista.
 
 
 ## Efetue as alterações necessárias e faça um Commit
 Agora abra o arquivo `Contributors.md` em seu editor de código, adicione o seu nome a ele e salve o arquivo. 
 
-Se você for para o diretório do projeto e executar o comando `git status`, verá que há alterações. Adicione essas alterações ao Branch que você acabou de criar utilizando o comando `git add`:
+Se você for para o diretório do projeto e executar o comando `git status`, verá que há alterações. Adicione essas alterações na branch que você acabou de criar utilizando o comando `git add`:
 ```
 git add Contributors.md
 ```
@@ -70,7 +70,7 @@ Faça um Push utilizando o comando `git push`:
 ```
 git push origin <add-seu-nome>
 ```
-substituindo `<add-seu-nome>` pelo nome do Branch que você criou anteriormente.
+substituindo `<add-seu-nome>` pelo nome da branch que você criou anteriormente.
 
 
 ## Envie suas alterações para serem revisadas
