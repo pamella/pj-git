@@ -64,13 +64,26 @@ git commit -m "Add <seu-nome> to Contributors list"
 ```
 preenchendo `<seu-nome>` com o seu nome.
 
-## Faça um Push das alterações para o GitHub
 
+## Faça um Push das alterações para o GitHub
 Faça um Push utilizando o comando `git push`:
 ```
 git push origin <add-seu-nome>
 ```
 substituindo `<add-seu-nome>` pelo nome do Branch que você criou anteriormente.
+
+
+## Envie suas alterações para serem revisadas
+Se você for para o seu repositório no GitHub, verá um botão `Compare & pull request`. Clique nesse botão.
+
+<img src="https://i.imgur.com/S9e5SKa.png" alt="Crie um Pull Request" />
+
+Agora envie um Pull Request.
+
+<img src="https://i.imgur.com/Yznycm4.png" alt="Envie o Pull Request" />
+
+Assim, poderei mergear as suas mudanças na branch principal (master) deste projeto. Você receberá um e-mail de notificação quando as alterações forem mergeadas.
+
 
 ## Referências
 | Tópico | Referência |
