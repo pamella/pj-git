@@ -50,6 +50,28 @@ git checkout -b add-larissa-silva
 ```
 Obs.: O nome do Branch não precisa ter a sigla "add", mas nesse caso é recomendável, porque a finalidade deste Branch é a de adicionar o seu nome a uma lista.
 
+
+## Efetue as alterações necessárias e faça um Commit
+Agora abra o arquivo `Contributors.md` em seu editor de código, adicione o seu nome a ele e salve o arquivo. 
+
+Se você for para o diretório do projeto e executar o comando `git status`, verá que há alterações. Adicione essas alterações ao Branch que você acabou de criar utilizando o comando `git add`:
+```
+git add Contributors.md
+```
+Agora faça um Commit dessas alterações utilizando o comando `git commit`:
+```
+git commit -m "Add <seu-nome> to Contributors list"
+```
+preenchendo `<seu-nome>` com o seu nome.
+
+## Faça um Push das alterações para o GitHub
+
+Faça um Push utilizando o comando `git push`:
+```
+git push origin <add-seu-nome>
+```
+substituindo `<add-seu-nome>` pelo nome do Branch que você criou anteriormente.
+
 ## Referências
 | Tópico | Referência |
 | --- | --- |
