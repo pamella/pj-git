@@ -21,7 +21,7 @@ Agora clone este repositório para a sua máquina. Clique no botão "Clone or do
 
 Abra seu terminal e execute o seguinte comando do git:
 ```
-git clone "url que copiou"
+git clone <url que copiou>
 ```
 onde "url que copiou" (sem as aspas) é a URL deste repositório. Consulte as etapas anteriores para obter a URL.
 
@@ -30,6 +30,25 @@ Por exemplo:
 git clone https://github.com/seu-usuario/pj-git.git
 ```
 onde "seu-usuário" é o seu usuário do GitHub. Aqui você está copiando o conteúdo do repositório pj-git para o seu computador.
+
+
+## Crie um Branch
+
+Vá para o diretório do repositório no seu computador (caso você não esteja lá):
+```
+cd pj-git
+```
+
+Agora crie um Branch usando o comando `git checkout`:
+```
+git checkout -b <add-seu-nome>
+```
+
+Por exemplo:
+```
+git checkout -b add-larissa-silva
+```
+Obs.: O nome do Branch não precisa ter a sigla "add", mas nesse caso é recomendável, porque a finalidade deste Branch é a de adicionar o seu nome a uma lista.
 
 ## Referências
 | Tópico | Referência |
