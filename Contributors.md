@@ -1,4 +1,4 @@
 # Contribuidores
 | Nome | Github |
 | --- | --- |
-| Pam | (pamella)[https://github.com/pamella/] |
+| Pam :rocket: | (pamella)[https://github.com/pamella/]|
